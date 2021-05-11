@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  background-image: url("../img/backround_image.jpg");
+  background-size: 100% auto;
+
+ 
+}

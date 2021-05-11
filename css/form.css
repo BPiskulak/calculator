@@ -1,0 +1,77 @@
+.form {
+    margin: auto;
+}
+
+.form__labelText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.form__field {
+    border: 1px solid rgb(184, 184, 184);
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form__field:required {
+    border-color: #777;
+}
+
+
+.form__button {
+    width: 100%;
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.form__button:hover {
+    background-color: rgb(202, 152, 26);
+}
+
+.form__button:active {
+    background-color: rgb(230, 181, 49);
+}
+
+.form__fieldset {
+    border: 2px solid darkgoldenrod;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form__legend {
+    width: 100%;
+    max-width: 300px;
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.form_moneyIcon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 510px;
+    margin-left: 3px;
+}
+
+.form_paragraf {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}

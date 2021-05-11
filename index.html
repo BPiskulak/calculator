@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200px`, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+    <link rel="icon" href="img/icon-bp.png">
+    <meta property="og:image" content="img/calculator-opengraph.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    Kalkulator walutowy
+                </legend>
+
+                <div class="form__labelText ">
+                        <img class="form_moneyIcon" src="https://i.ibb.co/mbbbKQ9/poland-flag.png" alt="poland-flag""> Podaj kwotę w
+                        PLN*
+                    </div>
+
+                <label>
+
+                    <input class=" form__field js-amount" type="number" min="0.01" step="any" required name="PLN"
+                            placeholder="PLN">
+                        </label>
+                </p>
+            
+                <p>
+                    <label>
+
+                        <select class="form__field js-currency" type="eyesColor">
+                            <option value="">Wybierz walutę</option>
+                            <option value="EUR">Euro</option>
+                            <option value="USD">Dolar amerykański</option>
+                            <option value="GBD">Funt brytyjski</option>
+
+
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                    <button class="form__button">Sprawdź kurs</button>
+                </p>
+                <p style="text-align: center;font-weight: 600;"> Wynik: <span class="form__result js-result"></span>
+                </p>
+
+                <p>
+                    <button class="form__button js-button" type="reset" value="wartość">Resetuj</button>
+                </p>
+            </fieldset>
+            <footer class="footer">
+                &#xa9; Copyright Bogusław Piskulak 2021
+            </footer>
+        </form>
+    </div>
+
+</body>
+
+</html>
